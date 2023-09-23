@@ -1,0 +1,95 @@
+/* Updated CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensure consistent box sizing */
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  display: flex; /* Add this to make children flex items */
+}
+
+.heading {
+  font-size: 25px !important;
+  color: #3498db !important;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.centerItem {
+  justify-content: space-between; /* To space out the header elements */
+  align-items: center; /* To vertically align the header elements */
+}
+
+.slideBar {
+  width: 273px;
+  height: 53px;
+}
+
+.ReaDMe {
+  width: 100%;
+}
+
+.add-btn {
+  width: 30px;
+  height: 30px;
+  background-color: #3498db;
+  border: 1px solid white;
+  color: white;
+  font-size: larger;
+  border-radius: 5px;
+}
+
+.noteItems {
+  width: 200px;
+  margin: 10px 0px;
+  background-color: whitesmoke;
+  padding: 10px 10px 20px 20px;
+  border-radius: 5px;
+}
+
+.noteItems:hover {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  padding: 10px 10px 20px 18px;
+  /* text-align: center; */
+}
+
+.noteLst {
+  margin: 20px 0px !important;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0px 20px;
+  height: 100%; /* Set a fixed height for scrolling */
+}
+.pane {
+  overflow-y: auto;
+  /* padding: 10px; */
+}
+
+
+.editor {
+  width: 80%;
+  height: 100vh;
+}
+.w-full{
+  width: 100%;
+}
+.editorSection{
+  margin: 0px 20px;
+}
